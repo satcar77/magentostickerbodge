@@ -17,7 +17,7 @@ def callBack():
     print_sticker(shipping_details[0],shipping_details[1],shipping_details[2],shipping_details[3],phone,total,orders)
 
 root.geometry("300x100")
-B = Button(root,padx="20",pady="20", text = "Print Bookworm Sticker", command = callBack)
+B = Button(root,padx="20",pady="20", text = "Print Sticker", command = callBack)
 B.place(x = 60,y =20)
 var = StringVar()
 label = Label( root, textvariable = var)
